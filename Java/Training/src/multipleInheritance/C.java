@@ -1,0 +1,17 @@
+package multipleInheritance;
+
+public class C implements A, B {
+
+	@Override
+	public void displayB() {
+		// TODO Auto-generated method stub
+		System.out.println("Display B");
+	}
+
+	@Override
+	public void displayA() {
+		// TODO Auto-generated method stub
+		System.out.println("Display A");
+	}
+
+}
