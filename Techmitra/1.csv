@@ -1,0 +1,23 @@
+_______________________ exceptions are raised as a result of an error in opening a particular file ,ValueError ,TypeError ,ImportError ,IOError,D
+An exception is ____________. ,an object ,a special function ,a standard module ,a module ,A
+Can one block of except statements handle multiple exception? ,"yes, like except TypeError, SyntaxError [,…]" ,"yes, like except [TypeError, SyntaxError]" ,no ,none of the mentioned ,A
+How does run() method is invoked? ,By Thread.create() ,None ,By Thread.start() ,By Thread.run() ,C
+How many except statements can a try-except block have? ,zero ,one ,more than one ,more than zero ,D
+How to terminate a blocking thread? ,thread.stop() ,thread.terminate() ,None ,thread.stop() &amp; thread.wait() ,D
+Identify the type of error in the following Python codes? Print(“Good Morning”) print(“Good night) ,"Syntax, Syntax" ,"Semantic, Syntax" ,"Semantic, Semantic" ,"Syntax, Semantic" ,B
+Syntax errors are also known as parsing errors. ,True ,False ,A
+What are the libraries in Python that support threads? ,threads ,threading ,_threading ,None ,B
+What happens when ‘1’ == 1 is executed? ,we get a True ,we get a False ,an TypeError occurs ,a ValueError occurs ,B
+What is the method to retrieve the list of all active threads? ,getThreads() ,enumerate() ,getList() ,threads() ,B
+"What will be the output of the following Python code, if the time module has already been imported? 4 + '3'" ,NameError ,IndexError ,ValueError ,TypeError ,D
+What will be the output of the following Python code? int('65.43') ,ImportError ,ValueError ,TypeError ,NameError ,B
+When is the finally block executed? ,when there is no exception ,when there is an exception ,only if some condition that has been specified is satisfied ,always ,D
+When will the else part of try-except-else be executed? ,always ,when an exception occurs ,when no exception occurs ,when an exception occurs in to except block ,C
+Which method is used to identify a thread? ,getName() ,getThread() ,None, get_ident() ,A
+Which of the following blocks will be executed whether an exception is thrown or not? ,except, else, finally, assert ,C
+Which of the following is not a standard exception in Python? ,NameError ,IOError ,AssignmentError ,ValueError ,C
+Which of the following is not an exception handling keyword in Python? ,try ,except ,accept ,finally ,C
+Which of the following statements is true? ,The standard exceptions are automatically imported into Python programs ,All raised standard exceptions must be handled in Python ,When there is a deviation from the rules of a programming language, a semantic error is thrown ,If any exception is thrown in try block, else block is executed ,A
+Which Python library runs a function as thread? ,thread ,threading ,_threading ,None ,A
+"Which synchronization method is used to guard the resources with limited capacity, e.g. a database server?" ,Condition ,Event ,Lock ,Semaphore ,D
+Which thread method is used to wait until it terminates? ,waitforthread() ,wait() ,None ,join() ,D

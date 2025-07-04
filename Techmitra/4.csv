@@ -1,0 +1,32 @@
+A panel is a ___ container of data ,1D ,2D ,3D ,Infinite ,C
+"If data is an ndarray, index must be the same length as data." ,True ,False ,A
+"In pandas, Index values must be?" ,unique ,hashable ,Both A and B ,None of the above ,C
+NumPy is often used along with packages like? ,Node.js ,Matplotlib ,SciPy ,Both B and C ,D
+NumPY stands for? ,Numbering Python ,Number In Python ,Numerical Python ,None Of the above ,C
+Pandas is an open-source _______ Library? ,Ruby ,Javascript ,Java ,Python ,D
+Pandas key data structure is called? ,Keyframe ,DataFrame ,Statistics ,Econometrics ,B
+Point out the correct combination with regards to kind keyword for graph plotting. ,‘hist’ for histogram ,‘box’ for boxplot ,‘area’ for area plots ,all of the mentioned ,D
+Point out the correct statement. ,NumPy main object is the homogeneous multidimensional array ,"In Numpy, dimensions are called axes" ,Numpy array class is called ndarray ,All of the mentioned ,D
+Point out the correct statement. ,"If data is a list, if index is passed the values in data corresponding to the labels in the index will be pulled out" ,NaN is the standard missing data marker used in pandas ,Series acts very similarly to a array ,None of the mentioned ,B
+Point out the wrong combination with regards to kind keyword for graph plotting. ,‘scatter’ for scatter plots ,‘kde’ for hexagonal bin plots ,‘pie’ for pie plots ,none of the mentioned ,B
+Point out the wrong statement. ,A DataFrame is like a fixed-size dict in that you can get and set values by index label ,Series can be be passed into most NumPy methods expecting an ndarray ,A key difference between Series and ndarray is that operations between Series automatically align the data based on label ,None of the mentioned ,A
+Point out the wrong statement. ,ipython is an enhanced interactive Python shell ,matplotlib will enable you to plot graphics ,rPy provides a lot of scientific routines that work on top of NumPy ,all of the mentioned ,C
+Series is a one-dimensional labeled array capable of holding any data type. ,True ,False ,A
+The ________ function returns its argument with a modified shape, whereas the ________ method modifies the array itself. ,"reshape, resize" ,"resize, reshape" ,"reshape2, resize" ,all of the mentioned ,A
+The most important object defined in NumPy is an N-dimensional array type called? ,ndarray ,narray ,nd_array ,darray ,A
+The plot method on Series and DataFrame is just a simple wrapper around ____________ ,gplt.plot() ,plt.plot() ,plt.plotgraph() ,none of the mentioned ,B
+The result of an operation between unaligned Series will have the ________ of the indexes involved. ,intersection ,union ,total ,all of the mentioned ,B
+"To create sequences of numbers, NumPy provides a function __________ analogous to range that returns arrays instead of lists." ,arange ,aspace ,aline ,all of the mentioned ,A
+Which of the following function stacks 1D arrays as columns into a 2D array? ,row_stack ,column_stack ,com_stack ,all of the mentioned ,B
+Which of the following input can be accepted by DataFrame? ,Structured ndarray ,Series ,DataFrame ,All of the mentioned ,D
+Which of the following is contained in NumPy library? ,n-dimensional array object ,tools for integrating C/C++ and Fortran code ,fourier transform ,all of the mentioned ,D
+Which of the following is correct Features of DataFrame? ,Potentially columns are of different types ,Can Perform Arithmetic operations on rows and columns ,Labeled axes (rows and columns) ,All of the above ,D
+Which of the following is true? ,"If data is an ndarray, index must be the same length as data." ,Series is a one-dimensional labeled array capable of holding any data type ,Both A and B ,None of the above ,C
+Which of the following makes use of pandas and returns data in a series or dataFrame? ,pandaSDMX ,freedapi ,OutPy ,Inpy ,B
+Which of the following operation works with the same syntax as the analogous dict operations? ,Getting columns ,Setting columns ,Deleting columns ,All of the mentioned ,D
+Which of the following takes a dict of dicts or a dict of array-like sequences and returns a DataFrame? ,DataFrame.from_items ,DataFrame.from_records ,DataFrame.from_dict ,All of the mentioned ,A
+Which of the following takes a dict of dicts or a dict of array-like sequences and returns a DataFrame? ,DataFrame.from_items ,DataFrame.from_records ,DataFrame.from_dict ,All of the above ,A
+Which of the following thing can be data in Pandas? ,a python dict ,an ndarray ,a scalar value ,all of the mentioned ,D
+Which of the following value is provided by kind keyword for barplot? ,bar ,kde ,hexbin ,none of the mentioned ,A
+Which of the following works analogously to the form of the dict constructor? ,DataFrame.from_items ,DataFrame.from_records ,DataFrame.from_dict ,All of the mentioned ,A
+You can create a scatter plot matrix using the __________ method in pandas.tools.plotting. ,sca_matrix ,scatter_matrix ,DataFrame.plot ,all of the mentioned ,B

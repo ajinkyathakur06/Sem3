@@ -1,0 +1,34 @@
+SR. NO,QUESTION TEXT,OPTION 1,OPTION 2,OPTION 3,OPTION 4,OPTION 5,OPTION 6,CORRECT OPTION,TOPIC NAME,DIFFICULTY LEVEL,OPTION JUSTIFICATION,MARKS FOR THE QUESTION
+1,What is the output of print(3 + 2 * 2)?,10,7,8,5,,,2,Basic Operators,easy,"Follows PEMDAS/BODMAS rule: multiplication before addition",1
+2,Which keyword is used to define a function in Python?,func,define,def,function,,,3,Functions,easy,"'def' is the keyword used to define functions in Python",1
+3,Which of these is NOT a valid Python data type?,int,float,string,boolean,,,3,Data Types,easy,"Python has 'str' not 'string' as a built-in type",1
+4,What does the len() function do?,Returns the type of object,Returns the length of an object,Deletes an object,Creates a new object,,,2,Built-in Functions,easy,"len() returns the number of items in an object",1
+5,How do you create a single-line comment in Python?,// comment,# comment,/* comment */,<!-- comment -->,,,2,Comments,easy,"Python uses # for single-line comments",1
+6,Which operator is used for exponentiation in Python?,^,**,//,exp,,,2,Basic Operators,easy,"** is the exponentiation operator in Python",1
+7,What is the output of print("Hello" + "World")?,HelloWorld,Hello World,Hello+World,Error,,,1,String Operations,easy,"+ concatenates strings without adding space",1
+8,Which method is used to convert a string to lowercase?,lower(),toLowerCase(),caseLower(),small(),,,1,String Methods,easy,"lower() is the correct string method",1
+9,What is the output of print(10 == "10")?,True,False,Error,None,,,2,Comparison Operators,easy,"Different types (int vs string) are not equal",1
+10,Which collection is ordered and changeable in Python?,Tuple,List,Set,Dictionary,,,2,Data Structures,easy,"Lists are ordered and mutable",1
+11,How do you start a for loop in Python?,for x in y:,for x = y:,for (x in y):,loop x in y:,,,1,Loops,easy,"for x in y: is the correct syntax",1
+12,What is the output of print(3 * "a")?,aaa,3a,a a a,Error,,,1,String Operations,easy,"Strings can be multiplied by integers",1
+13,Which function converts a value to an integer?,int(),integer(),toInt(),parseInt(),,,1,Type Conversion,easy,"int() is the built-in conversion function",1
+14,What is the output of print(type(3.14))?,<class 'int'>,<class 'float'>,<class 'double'>,<class 'number'>,,,2,Data Types,easy,"Decimal numbers are float type in Python",1
+15,Which operator checks if a value is in a sequence?,contains,in,has,inside,,,2,Membership Operators,easy,"'in' is the membership operator",1
+16,How do you create an empty list in Python?,[],list(),{},Both A and B,,,4,Data Structures,easy,"Both [] and list() create empty lists",1
+17,What is the output of print(10 / 3)?,3,3.333,3.0,Error,,,2,Basic Operators,easy,"Division always returns float in Python 3",1
+18,Which method adds an item to the end of a list?,append(),add(),insert(),push(),,,1,List Methods,easy,"append() adds to the end of a list",1
+19,What does the input() function return?,Integer,String,Float,Depends on user input,,,2,Input/Output,easy,"input() always returns a string",1
+20,Which statement is used to exit a loop prematurely?,stop,break,exit,return,,,2,Loops,easy,"break exits the nearest loop",1
+21,What is the output of print(not True)?,True,False,1,0,,,2,Boolean Operators,easy,"not inverts the boolean value",1
+22,How do you get the last item of a list called my_list?,my_list[-0],my_list[last],my_list[-1],my_list[end],,,3,List Indexing,easy,"Negative indexes count from the end",1
+23,Which symbol is used for line continuation in Python?,/,&,\,|,,,3,Syntax,easy,"Backslash continues lines in Python",1
+24,What is the output of print(bool("False"))?,True,False,Error,None,,,1,Boolean Conversion,easy,"Non-empty strings are always True",1
+25,How do you check if two variables refer to the same object?,==,=,is,equals,,,3,Identity Operators,easy,"'is' checks object identity",1
+26,Which of these is a valid dictionary declaration?,dict = [1:'a', 2:'b'],dict = {1='a', 2='b'},dict = {1:'a', 2:'b'},dict = (1:'a', 2:'b'),,,3,Dictionaries,easy,"Dictionaries use {} with key:value pairs",1
+27,What is the output of print("hello".upper())?,HELLO,hello,Hello,Error,,,1,String Methods,easy,"upper() converts to uppercase",1
+28,Which module is used for mathematical operations?,calc,math,number,calculate,,,2,Modules,easy,"math module contains math functions",1
+29,What is the output of print(10 // 3)?,3,3.333,3.0,Error,,,1,Basic Operators,easy,"// performs floor division",1
+30,How do you create a tuple with one item?,item = (1),item = 1,item = (1,),item = [1],,,3,Tuples,easy,"Need trailing comma for single-item tuple",1
+31,Which function displays documentation about an object?,doc(),info(),help(),explain(),,,3,Built-in Functions,easy,"help() shows object documentation",1
+32,What is the output of print(2 + 3 * 3 ** 2)?,29,45,81,11,,,1,Operator Precedence,easy,"Follows exponentiation first, then multiplication, then addition",1
+33,Which method removes whitespace from the start and end of a string?,strip(),trim(),clean(),removeSpace(),,,1,String Methods,easy,"strip() removes leading/trailing whitespace",1

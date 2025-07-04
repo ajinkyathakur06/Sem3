@@ -1,0 +1,11 @@
+How can you delete all of the rows where the ""name"" is ""Ruby"" in the Cats Table? ,DELETE FROM Cats WHERE name = 'Ruby' ,DELETE name='Ruby' FROM Cats ,DELETE ROW name='Ruby' FROM Cats ,DELETE FROM Cats WHERE name == 'Ruby' ,A
+"Looking at the code below, what would this line do to the table Cats? cur.execute('DROP TABLE IF EXISTS Cats ')" ,It will remove the row ""Cats"" ,It will move ""Cats"" to the end of the database ,It will remove the column ""Cats"" ,It will remove the table ""Cats"" ,D
+"Looking at the code below, what would this line do? INSERT INTO Cats (name, breed) VALUES ('Petunia', 'American Shorthair')" ,Add a table to the Cats database with the name ""Petunia"" and breed ""American Shorthair"" ,Add a row to the Cats table with the name ""Petunia"" and the breed ""American Shorthair"" ,Create the table Cats ,Add a row to the Cats table with the name ""American Shorthair"" and the breed ""Petunia"" ,B
+SELECT * FROM Cats WHERE name = 'Bernard' ,True ,False ,A
+True or False? A cursor is used to create a database. ,True ,False ,B
+True or False? SQLite will not let two programs change the same data at the same time. ,True ,False ,A
+Which command will try to remove data from a table in a database? ,DELETE ,REMOVE ,COLLAPSE ,DROP ,A
+Which is the correct command for a statement that will select data from the Breed column in the Cats table? ,"SELECT FROM Breed,Cats" ,SELECT Cats FROM Breed ,SELECT Breed FROM Cats ,FROM Cats SELECT Breed ,C
+Which of the correct way to install the sqlite3 in python ? ,install sqlite3 ,pip install sqlite3 ,pip sqlite3 install python ,None of the above ,B
+Which of the following is not a SQL constraint? ,UNIQUE ,PRIMARY KEY ,LOGICAL KEY ,NOT NULL ,C
+Which SQL keyword is used to combine rows from two tables in a database? ,IN ,JOIN ,BETWEEN ,SELECT INTO ,B

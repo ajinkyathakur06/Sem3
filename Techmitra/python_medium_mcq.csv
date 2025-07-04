@@ -1,0 +1,34 @@
+SR. NO,QUESTION TEXT,OPTION 1,OPTION 2,OPTION 3,OPTION 4,OPTION 5,OPTION 6,CORRECT OPTION,TOPIC NAME,DIFFICULTY LEVEL,OPTION JUSTIFICATION,MARKS FOR THE QUESTION
+1,"What does `[x for x in range(10) if x%2==0]` produce?","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]","[0, 2, 4, 6, 8]","[2, 4, 6, 8]","[1, 3, 5, 7, 9]",,,2,List Comprehensions,medium,"Filters even numbers using condition x%2==0",1
+2,"Which is the correct way to open a file for both reading and writing?","open('file.txt', 'rw')","open('file.txt', 'r+')","open('file.txt', 'readwrite')","open('file.txt', 'w+')",,,2,File Handling,medium,"'r+' mode allows both reading and writing",1
+3,"What will `print(round(3.14159, 2))` output?","3.14","3.141","3.142","3.1",,,1,Built-in Functions,medium,"round() with 2 as second argument keeps 2 decimal places",1
+4,"Which decorator converts a function to a static method?","@classmethod","@staticmethod","@property","@abstractmethod",,,2,Decorators,medium,"@staticmethod is used for static methods",1
+5,"What is the output of `print('PYTHON'.isupper())`?","True","False","PYTHON","Error",,,1,String Methods,medium,"isupper() returns True if all characters are uppercase",1
+6,"Which exception is raised when a key is not found in a dictionary?","KeyError","IndexError","ValueError","NotFoundError",,,1,Exception Handling,medium,"KeyError is specific to dictionary key lookups",1
+7,"What does `' '.join(['Hello', 'World'])` return?","['Hello', 'World']","'HelloWorld'","'Hello World'","'Hello, World'",,,3,String Methods,medium,"join() concatenates with specified separator",1
+8,"Which is true about Python's GIL?","Prevents multiple threads from executing bytecode simultaneously","Only affects multiprocessing","Was removed in Python 3","Makes all operations thread-safe",,,1,Concurrency,medium,"GIL allows only one thread to execute bytecode at a time",1
+9,"What is the purpose of `__str__` method?","String representation for programmers","String representation for end users","Called by the str() built-in","Both B and C",,,4,Magic Methods,medium,"__str__ is for end users and called by str()",1
+10,"Which creates a dictionary with keys from a list and default value 0?","dict.fromkeys([1,2,3], 0)","dict([1,2,3], 0)","dict(keys=[1,2,3], value=0)","{k:0 for k in [1,2,3]}",,,1,Dictionaries,medium,"fromkeys() creates dict with specified keys and value",1
+11,"What is the output of `print((1, 2) + (3, 4))`?","(1, 2, 3, 4)","(4, 6)","(1, 2)(3, 4)","Error",,,1,Tuples,medium,"+ concatenates tuples",1
+12,"Which is NOT a valid way to reverse a list?","reversed(my_list)","my_list[::-1]","my_list.reverse()","reverse(my_list)",,,4,List Methods,medium,"reverse() is a method, not standalone function",1
+13,"What does `functools.partial` do?","Creates partial functions","Performs partial sorting","Handles partial imports","Manages partial exceptions",,,1,Functional Programming,medium,"partial() fixes certain arguments of a function",1
+14,"Which is true about Python's `@property` decorator?","Converts method to read-only attribute","Allows getter/setter methods","Both A and B","Creates class properties",,,3,Decorators,medium,"@property enables getter/setter functionality",1
+15,"What is the output of `print(any([False, 0, '', None]))`?","True","False","Error","None",,,2,Built-in Functions,medium,"any() returns False as all values are falsy",1
+16,"Which context manager automatically closes a file?","with","open","close","auto",,,1,Context Managers,medium,"with statement handles file closing automatically",1
+17,"What does `sys.getsizeof(x)` return?","Memory size in bits","Memory size in bytes","Length of x","Hash of x",,,2,Memory Management,medium,"getsizeof() returns size in bytes",1
+18,"Which is used to create an abstract base class?","abc.ABC","abc.Abstract","@abstractclass","abstract.ABC",,,1,OOP Concepts,medium,"abc.ABC is the base class for ABCs",1
+19,"What is the output of `print('Hello'.replace('l', 'L', 1))`?","HeLLo","HeLlo","Hello","HLlo",,,2,String Methods,medium,"Third argument limits replacements count",1
+20,"Which is NOT a valid NumPy import?","import numpy as np","from numpy import *","import numpy","import numpy as py",,,4,Modules,medium,"Standard alias is 'np' not 'py'",1
+21,"What does `collections.defaultdict` provide?","Default values for missing keys","Default dictionary methods","Default sorting","Default serialization",,,1,Collections Module,medium,"defaultdict handles missing keys with default factory",1
+22,"Which is true about Python's `pass` statement?","Does nothing","Same as continue","Same as break","Terminates program",,,1,Control Flow,medium,"pass is a null operation placeholder",1
+23,"What is the output of `print([1, 2] * 2)`?","[1, 2, 1, 2]","[2, 4]","[[1, 2], [1, 2]]","Error",,,1,List Operations,medium,"* operator repeats list elements",1
+24,"Which creates a generator expression?","(x for x in range(5))","[x for x in range(5)]","{x for x in range(5)}","lambda x: x in range(5)",,,1,Generators,medium,"Parentheses create generator expressions",1
+25,"What does `__name__ == '__main__'` check?","If file is imported","If file is run directly","Both A and B","If name is main",,,2,Modules,medium,"Checks if script is being run directly",1
+26,"Which is NOT a valid set operation?","union","intersection","difference","concatenate",,,4,Sets,medium,"Sets don't support concatenation",1
+27,"What is the output of `print(bool([]))`?","True","False","Error","None",,,2,Boolean Conversion,medium,"Empty lists are falsy",1
+28,"Which decorator marks a method as class method?","@classmethod","@staticmethod","@clsmethod","@class",,,1,Decorators,medium,"@classmethod is the correct decorator",1
+29,"What does `os.path.join('dir', 'file.txt')` do?","Concatenates with \\","Creates absolute path","Joins with OS-specific separator","Checks file exists",,,3,OS Module,medium,"join() uses correct path separator for OS",1
+30,"Which is true about Python's `else` in loops?","Executes if loop completes normally","Executes if break occurs","Same as finally","Only for while loops",,,1,Loops,medium,"else executes when loop completes without break",1
+31,"What is the output of `print('Python'.partition('th'))`?","('Py', 'th', 'on')","['Py', 'th', 'on']","('Python')","Error",,,1,String Methods,medium,"partition() splits at first occurrence into 3 parts",1
+32,"Which is NOT a valid variable name?","_private","global","2nd_var","var_name",,,3,Variables,medium,"Variable names can't start with numbers",1
+33,"What does `frozenset()` provide?","Mutable set","Immutable set","Frozen list","Sorted set",,,2,Data Structures,medium,"frozenset is immutable version of set",1

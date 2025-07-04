@@ -1,0 +1,35 @@
+SR. NO,QUESTION TEXT,OPTION 1,OPTION 2,OPTION 3,OPTION 4,OPTION 5,OPTION 6,CORRECT OPTION,TOPIC NAME,DIFFICULTY LEVEL,OPTION JUSTIFICATION,MARKS FOR THE QUESTION
+1,"What is the output of `[x if x%2==0 else None for x in range(5)]`?","[0, None, 2, None, 4]","[None, 1, None, 3, None]","[0, 2, 4]","Error",,,1,List Comprehensions,hard,"Conditional expression in list comprehension",2
+2,"Which metaclass is used to create an abstract base class?","abc.ABCMeta","abc.Abstract","abc.Meta","abc.Base",,,1,Metaclasses,hard,"ABCMeta is the metaclass for ABCs",2
+3,"What does `@functools.lru_cache` do?","Caches function results","Limits recursion depth","Manages memory leaks","Logs function calls",,,1,Decorators,hard,"Implements Least Recently Used cache",2
+4,"What is the output of `print((lambda x: x**2)(5))`?","25","10","55","Error",,,1,Lambda Functions,hard,"Lambda creates anonymous function",2
+5,"Which is true about `__slots__`?","Prevents dynamic attribute creation","Improves memory usage","Both A and B","Makes class immutable",,,3,OOP Advanced,hard,"__slots__ optimizes memory and limits attributes",2
+6,"What does `yield from` do in generators?","Delegates to another generator","Yields all values at once","Stops execution","Restarts generator",,,1,Generators,hard,"yield from enables subgenerator delegation",2
+7,"Which is NOT a valid use of `@contextlib.contextmanager`?","File handling","Temporary resource management","Class decoration","Database transactions",,,3,Context Managers,hard,"Used for function decorators, not classes",2
+8,"What is the output of `print([1, 2, 3][-2:])`?","[2, 3]","[1, 2]","[3]","Error",,,1,Slicing,hard,"Negative slicing starts from end",2
+9,"Which decorator is used for method overloading?","@overload","@singledispatch","@multimethod","Python doesn't support overloading",,,2,Decorators,hard,"functools.singledispatch enables overloading",2
+10,"What does `asyncio.create_task()` do?","Starts thread","Schedules coroutine","Creates process","Terminates loop",,,2,Asyncio,hard,"Schedules coroutine execution",2
+11,"Which is true about Python's descriptor protocol?","Uses __get__ and __set__","Only for properties","Requires @descriptor","Prevents inheritance",,,1,Descriptors,hard,"Descriptors implement __get__/__set__/__delete__",2
+12,"What is the output of `print(bytearray(b'Python').decode())`?","b'Python'","Python","['P','y','t','h','o','n']","Error",,,2,Bytes Handling,hard,"decode() converts bytearray to string",2
+13,"Which is used to create a thread pool?","concurrent.futures.ThreadPoolExecutor","threading.Pool","multiprocessing.Pool","async.Pool",,,1,Concurrency,hard,"ThreadPoolExecutor manages thread pools",2
+14,"What does `@dataclass` automatically generate?","__init__ and __repr__","__call__ and __new__","__enter__ and __exit__","__getitem__ and __setitem__",,,1,Decorators,hard,"@dataclass creates boilerplate methods",2
+15,"Which is true about `__mro__`?","Method Resolution Order","Class inheritance hierarchy","Both A and B","Module import order",,,3,OOP Advanced,hard,"__mro__ shows method lookup order",2
+16,"What is the output of `print({True: 'yes', 1: 'no'})`?","{True: 'yes', 1: 'no'}","{True: 'no'}","{1: 'no'}","Error",,,2,Dictionaries,hard,"True and 1 hash to same value",2
+17,"Which is used for coroutine-based concurrency?","asyncio","threading","multiprocessing","subprocess",,,1,Asyncio,hard,"asyncio is for coroutine-based concurrency",2
+18,"What does `__call__` method enable?","Instance callability","Class inheritance","Method chaining","Operator overloading",,,1,Magic Methods,hard,"__call__ makes instances callable",2
+19,"Which is true about Python's GIL?","Affects CPU-bound threads","Affects I/O-bound threads","Affects multiprocessing","Was removed in Python 3.10",,,1,Concurrency,hard,"GIL impacts CPU-bound thread performance",2
+20,"What is the output of `print(eval('2 ** 3 ** 2'))`?","64","512","12","Error",,,2,Dynamic Execution,hard,"Right-associative exponentiation",2
+21,"Which is used for monkey patching?","Modifying classes at runtime","Creating abstract methods","Generating documentation","Optimizing bytecode",,,1,Metaprogramming,hard,"Monkey patching modifies runtime behavior",2
+22,"What does `collections.ChainMap` do?","Links multiple dictionaries","Creates hash chains","Implements linked lists","Manages memory chains",,,1,Collections Module,hard,"ChainMap searches multiple dicts",2
+23,"Which is true about `__new__`?","Creates instance before __init__","Replaces __init__","Only for immutable types","Prevents instantiation",,,1,Magic Methods,hard,"__new__ controls instance creation",2
+24,"What is the output of `print((x:=5) + x)`?","10","5","Error","Undefined",,,1,Walrus Operator,hard,"Assignment expression (Python 3.8+)",2
+25,"Which is used for weak references?","weakref module","gc module","mem module","ptr module",,,1,Memory Management,hard,"weakref creates non-owning references",2
+26,"What does `@functools.singledispatchmethod` do?","Method overloading","Method decoration","Method caching","Method registration",,,1,Decorators,hard,"Enables method overloading by type",2
+27,"Which is true about metaclasses?","Control class creation","Must subclass type","Both A and B","Replace decorators",,,3,Metaclasses,hard,"Metaclasses customize class creation",2
+28,"What is the output of `print([*[1,2], *[3,4]])`?","[1, 2, 3, 4]","[[1,2],[3,4]]","[1,2,3,4]","Error",,,1,Iterable Unpacking,hard,"* operator unpacks iterables",2
+29,"Which is used for coroutine cancellation?","asyncio.CancelledError","threading.Cancel","multiprocessing.Stop","concurrent.Halt",,,1,Asyncio,hard,"CancelledError handles coroutine cancellation",2
+30,"What does `__subclasshook__` do?","Customizes isinstance()","Manages subclass creation","Prevents subclassing","Automates method creation",,,1,ABCs,hard,"Allows customizing isinstance checks",2
+31,"Which is true about `__annotations__`?","Stores type hints","Requires @annotate","Only for functions","Prevents dynamic typing",,,1,Type Hints,hard,"Contains type hint information",2
+32,"What is the output of `print(not all([True, False, True]))`?","True","False","Error","None",,,1,Built-in Functions,hard,"not inverts all() result",2
+33,"Which is used for memory views?","memoryview()","view()","memview()","buffer()",,,1,Memory Management,hard,"memoryview accesses memory directly",2
+34,"What does `@contextlib.asynccontextmanager` do?","Creates async context managers","Replaces __aenter__","Manages async resources","Both A and C",,,4,Context Managers,hard,"Creates async context managers (Python 3.7+)",2
