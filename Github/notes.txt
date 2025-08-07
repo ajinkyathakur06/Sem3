@@ -1,0 +1,26 @@
+SVN:
+    subversion
+
+when git does not know a file it is called untraced files.
+
+
+useful Commands
+ls:
+
+git init--initial-branch=main:
+    Initialize a empty git repo with branch as main
+
+git status:
+    to check the status of the branch
+
+touch <filename>:
+    to create a file 
+
+git add <filename>:
+    to add file to staging
+
+git commit -m "<commit message>":
+    to commit and name the commit message
+
+rm -rf ./* .git
+    to delete all the files and .git folder

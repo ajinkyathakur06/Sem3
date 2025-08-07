@@ -6,3 +6,6 @@ anaconda_projects/
 
 # Ignore Jupyter notebook checkpoints
 **/.ipynb_checkpoints/
+
+#Ignore commands for accessing the ssh agent
+Github/thakurajinkya007.txt

@@ -1,0 +1,102 @@
+
+### Configuration and Setup
+
+git config --global user.name "Your Name"  # Set your name for commits.
+git config --global user.email "you@example.com"  # Set your email for commits.
+git config --list  # View all Git configuration settings.
+
+
+### Repository Initialization and Setup
+
+git init  # Initialize a new Git repository.
+git clone <repository-url>  # Clone a remote repository to your local machine.
+
+
+### Working with Branches
+
+git branch  # List all local branches.
+git branch <branch-name>  # Create a new branch.
+git checkout <branch-name>  # Switch to a specific branch.
+git checkout -b <branch-name>  # Create and switch to a new branch.
+git merge <branch-name>  # Merge the specified branch into the current branch.
+git branch -d <branch-name>  # Delete a local branch.
+git branch -D <branch-name>  # Force delete a local branch.
+
+
+### Checking Repository Status
+
+git status  # Show the working tree status (modified, added, etc.).
+git diff  # Show differences between working directory and the index or between commits.
+
+
+### Staging and Committing Changes
+
+git add <file>  # Stage a specific file for commit.
+git add .  # Stage all changes (including new files, modifications, and deletions).
+git commit -m "message"  # Commit staged changes with a message.
+git commit --amend  # Amend the most recent commit.
+git reset <file>  # Unstage a file from the staging area.
+git reset --hard  # Reset all changes and uncommitted files to the last commit.
+
+
+### Working with Remote Repositories
+
+git remote -v  # View the URL of the remote repository.
+git remote add origin <url>  # Add a new remote repository.
+git fetch  # Fetch updates from the remote repository without merging.
+git pull  # Fetch and merge changes from the remote repository.
+git push origin <branch-name>  # Push local branch changes to the remote repository.
+git push -u origin <branch-name>  # Push a new branch to the remote and set it to track the remote branch.
+git push --force  # Force push changes to the remote (be cautious).
+
+
+### Viewing Commit History
+
+git log  # View the commit history.
+git log --oneline  # View the commit history in a simplified, one-line format.
+git log --graph  # View the commit history as a graph.
+git show <commit-hash>  # Show detailed information about a specific commit.
+git diff <commit1> <commit2>  # Show differences between two commits.
+
+
+### Undoing Changes
+
+git reset <commit>  # Reset the current branch to the specified commit.
+git revert <commit-hash>  # Revert changes from a specific commit (create a new commit).
+git checkout -- <file>  # Discard changes in a specific file (revert to the last committed state).
+git clean -fd  # Remove untracked files and directories.
+
+
+### Working with Tags
+
+git tag  # List all tags.
+git tag <tag-name>  # Create a new tag.
+git push origin <tag-name>  # Push a tag to the remote repository.
+git tag -d <tag-name>  # Delete a local tag.
+
+
+### Stashing Changes
+
+git stash  # Stash the changes in the working directory.
+git stash apply  # Apply the most recent stashed changes.
+git stash pop  # Apply and remove the most recent stashed changes.
+git stash list  # List all stashes.
+git stash drop  # Remove a specific stash.
+
+
+### Working with Patches
+
+git format-patch  # Create patch files from commits.
+git apply <patch-file>  # Apply a patch file.
+
+
+### Viewing Changes in the Index
+
+git ls-files  # Show all tracked files in the repository.
+git diff --cached  # View changes staged for the next commit.
+
+
+### Miscellaneous Commands
+
+git help  # View help for any Git command.
+git config --global core.editor <editor>  # Set your default text editor for Git.
